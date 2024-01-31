@@ -23,11 +23,11 @@ If you use this repository please cite the following papers:
 New Journal of Physics, 25(9), p. 093013. 
 doi:10.1088/1367-2630/acf33c.
 
+_Note: parameters alpha, and tau from [1] are respectively called beta and gamma in the code._
 
-## Files: 
+# Content:
 
-Functions_Dirac_signal_proc.py: Includes all the functions required for the analysis.
-
+_Functions_Dirac_signal_proc.py_: Includes all the functions required for the analysis.
 
 ## Florentine folder:
 
@@ -36,9 +36,9 @@ If using this code, please cite
 [2] JF Padgett, CK Ansell - "Robust Action and the Rise of the Medici, 1400-1434". American journal of sociology, 1259-1319 (1993) 
 
 ### Files:
-Padgett-Florentine-Families_multiplex.edges: edge list of the simplicial complex used, obtained from https://manliodedomenico.com/data.php
-NGF_triangles_d2.txt: triangle list of the simplicial complex used
-Florentine Families Mass-general noise to-share.ipynb: notebook containing the analysis conducted in paper [1]
+_Padgett-Florentine-Families_multiplex.edges_: edge list of the simplicial complex used, obtained from https://manliodedomenico.com/data.php
+_NGF_triangles_d2.txt_: triangle list of the simplicial complex used
+_Florentine Families Mass-general noise to-share.ipynb_: notebook containing the analysis conducted in paper [1]
 
 
 ## NGF folder:
@@ -48,9 +48,9 @@ If using this code, please cite
 [2] G. Bianconi and C. Rahmede "Network geometry with flavor:from complexity to quantum geometry" Physical Review E 93, 032315 (2016).
 
 ### Files:
-NGF_edgelist.edges: edge list of the simplicial complex used
-NGF_triangles_d2.txt: triangle list of the simplicial complex used
-NGF Mass-general noise to-share.ipynb: notebook containing the analysis conducted in paper [1]
+_NGF_edgelist.edges_: edge list of the simplicial complex used
+_NGF_triangles_d2.txt_: triangle list of the simplicial complex used
+_NGF Mass-general noise to-share.ipynb_: notebook containing the analysis conducted in paper [1]
 
 
 ## Drifters folder:
@@ -73,9 +73,7 @@ NOAA National Centers for Environmental Information. Dataset.
 https://doi.org/10.25921/7ntx-z961.
 
 ### Files:
-dataBuoys-coords.jld2 dataset in jld2 format
-dataBuoys.jld2 dataset in jld2 format that includes the coordinates of the hexagons
-buoy_data.py: script to read the above files and return python arrays necessary to the analysis
-Buoys Mass-general noise-to-share.ipynb: notebook containing the analysis conducted in paper [1]
-
-Note: parameters alpha, and tau from [1] are respectively called beta and gamma in the code.
+_dataBuoys-coords.jld2_: dataset in jld2 format
+_dataBuoys.jld2_: dataset in jld2 format that includes the coordinates of the hexagons
+_buoy_data.py_: script to read the above files and return python arrays necessary to the analysis
+_Buoys Mass-general noise-to-share.ipynb_: notebook containing the analysis conducted in paper [1]
